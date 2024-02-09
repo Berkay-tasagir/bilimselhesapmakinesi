@@ -65,7 +65,7 @@ fun CalculatorButton(
     Box(
         contentAlignment = Alignment.Center,
         modifier = Modifier
-            .clip(RoundedCornerShape(50.dp))
+            .clip(RoundedCornerShape(18.dp))
             .background(color)
             .then(modifier)
     ) {
@@ -83,9 +83,9 @@ fun CalculatorButton(
 fun CalculatorUI(
     viewModel: CalculatorViewModel,
 ) {
-    val renk = Color(0xFF003175)
+    val işlemrenk = Color(0xFF003175)
     val expression = viewModel.expression
-    val buttonSpacing = 8.dp
+    val buttonSpacing = 7.dp
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -145,7 +145,7 @@ fun CalculatorUI(
                 )
                 CalculatorButton(
                     symbol = "mod",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -155,7 +155,7 @@ fun CalculatorUI(
                 )
                 CalculatorButton(
                     symbol = "(",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -165,7 +165,7 @@ fun CalculatorUI(
                 )
                 CalculatorButton(
                     symbol = ")",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -175,7 +175,7 @@ fun CalculatorUI(
                 )
                 CalculatorButton(
                     symbol = "÷",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -192,7 +192,7 @@ fun CalculatorUI(
             ) {
                 CalculatorButton(
                     symbol = "yˣ",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -202,7 +202,7 @@ fun CalculatorUI(
                 )
                 CalculatorButton(
                     symbol = "√",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -212,7 +212,7 @@ fun CalculatorUI(
                 )
                 CalculatorButton(
                     symbol = "x²",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -222,7 +222,7 @@ fun CalculatorUI(
                 )
                 CalculatorButton(
                     symbol = "π",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -232,7 +232,7 @@ fun CalculatorUI(
                 )
                 CalculatorButton(
                     symbol = "e",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -249,7 +249,7 @@ fun CalculatorUI(
             ) {
                 CalculatorButton(
                     symbol = "tan",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -289,7 +289,7 @@ fun CalculatorUI(
                 )
                 CalculatorButton(
                     symbol = "×",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -306,7 +306,7 @@ fun CalculatorUI(
             ) {
                 CalculatorButton(
                     symbol = "cot",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -346,7 +346,7 @@ fun CalculatorUI(
                 )
                 CalculatorButton(
                     symbol = "-",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -363,7 +363,7 @@ fun CalculatorUI(
             ) {
                 CalculatorButton(
                     symbol = "sin",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -403,7 +403,7 @@ fun CalculatorUI(
                 )
                 CalculatorButton(
                     symbol = "+",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -420,7 +420,7 @@ fun CalculatorUI(
             ) {
                 CalculatorButton(
                     symbol = "cos",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -430,7 +430,7 @@ fun CalculatorUI(
                 )
                 CalculatorButton(
                     symbol = "log",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -450,7 +450,7 @@ fun CalculatorUI(
                 )
                 CalculatorButton(
                     symbol = ". / ,",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -465,7 +465,7 @@ fun CalculatorUI(
                 )
                 CalculatorButton(
                     symbol = "=",
-                    color = renk,
+                    color = işlemrenk,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
